@@ -1,0 +1,243 @@
+h1 {
+  color: white;
+}
+body {
+  background-color: white;
+  color: rgb(82, 81, 81);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+li {
+  display: inline;
+  margin-left: 20px;
+}
+header {
+  background-color: tan;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 153;
+}
+.sad {
+  text-align: center;
+  font-size: 25px;
+  color: tan;
+  line-height: 1.8;
+}
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+  display: inline-block;
+  padding: 5px;
+  background-color: tan;
+  transition: background-color 0.3s ease;
+  z-index: 151;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+nav a:hover {
+  background-color: #a68c6c;
+  z-index: 152;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 40%;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+  color: #a68c6c;
+  font-size: 170%;
+}
+h3 {
+  text-align: left;
+  color: tan;
+  font-size: 160%;
+  font-weight: 900;
+}
+li.highlight .title {
+  background-color: grey;
+  color: white;
+  text-align: left;
+  padding-right: 2px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-right: 2px;
+}
+header img {
+  padding-right: 10px;
+  width: 60px;
+  height: auto;
+}
+.container {
+  width: 1300px;
+  border-left: 145px solid gray;
+  border-right: 145px solid gray;
+}
+.image-right {
+  display: flex;
+  align-items: center;
+}
+.image-right img {
+  flex: 0 0 auto;
+  margin-left: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+.image-right img:hover {
+  opacity: 0.8;
+}
+.image-right p {
+  color: #a68c6c;
+  font-size: 1.9rem;
+}
+.image-left {
+  display: flex;
+  align-items: center;
+  color: #a68c6c;
+  font-size: 1.9rem;
+}
+.image-left img {
+  order: -1;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+#audio {
+  width: 1000px;
+}
+li.highlight p{
+  color: #a68c6c;
+  align-items: center;
+  font-size: 1.9rem;
+}
+.three-image{
+  display: flex;
+}
+.image-container{
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin: 10px;
+}
+.image-container img{
+   margin: 10px;
+   margin-left: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+.something{
+  display: flex;
+}
+.image-container2{
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin: 10px;
+}
+.image-container2 img{
+  margin-left: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+.image-container2 img.smaller{
+  border-width: 1px;
+}
+.image-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding: 10px;
+}
+.image-center img{
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+p i{
+  font-size: 1.3rem;
+  color: black;
+}
+.questionary{
+  font-size: 1.4rem;
+}
+#Q1 {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer; 
+  border-radius: 10px;
+}
+
+#Q1:focus {
+  outline: none;
+  border-color: #a68c6c;
+  box-shadow: 0 0 5px rgba(166, 140, 108, 0.5);
+}
+#Q1 option {
+  background-color: #f2f2f2;
+  color: #555;
+}
+#cutness{
+  font-size: 1.3rem;
+  background-color: #ccc;
+  border-color: #555;
+  scolor: #a68c6c;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#you-up{
+  font-size: 1.3rem;
+  background-color: #ccc;
+  border-color: #555;
+  scolor: #a68c6c;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+  }
+}
+
+/* Adjust image styles */
+@media (max-width: 768px) {
+  .image-right img {
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+}
